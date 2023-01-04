@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "perservation",
+				"outputs": [
+					{
+						"internalType": "contract Perservation",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_timeStamp",
+						"type": "uint256"
+					}
+				],
+				"name": "setTime",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"src/attackContract.sol": "attackContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"src/attackContract.sol": {
+			"keccak256": "0xcf97078a34651ede652dde7d4d4adfad33a89abfbbbb2be85ec62b2805c5effe",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://aca5398f7a8bdf1541012cfd7c03978f108474ada9731788a77a32a19d327ac8",
+				"dweb:/ipfs/QmYyMPopvAYbFVy4BEwg6cYdsxPX1XnefeWHYGkP8zu7gc"
+			]
+		},
+		"src/victimContract.sol": {
+			"keccak256": "0x1fdfe4dc3b91a266cc7655c7ad1edb4d0978bafbdbe0f1bc2e3afd8b0c81fd8b",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://66b0b38f5290bd4792802b83cbb79a03c4b81cc9c9e880e12db597d4466308b8",
+				"dweb:/ipfs/QmS5m2SjS5uvsaWyEfXHL14scJK2xBwTPRo9RobdiWSY1K"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_time",
+						"type": "uint256"
+					}
+				],
+				"name": "setTime",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"src/Perservation.sol": "LibraryContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"src/Perservation.sol": {
+			"keccak256": "0x1fdfe4dc3b91a266cc7655c7ad1edb4d0978bafbdbe0f1bc2e3afd8b0c81fd8b",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://66b0b38f5290bd4792802b83cbb79a03c4b81cc9c9e880e12db597d4466308b8",
+				"dweb:/ipfs/QmS5m2SjS5uvsaWyEfXHL14scJK2xBwTPRo9RobdiWSY1K"
+			]
+		}
+	},
+	"version": 1
+}
